@@ -18,12 +18,13 @@
         width="100px"
         height="100px"
       />
+
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Content</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="http://127.0.0.1:5500/extra.html">Home</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#foot">Contact us</a></li>
         </ul>
       </nav>
       <!-- Search in Google -->
@@ -32,8 +33,16 @@
       </form>
     </header>
     <hr />
-    <main>
+    <main id="content">
+      <details open>
+        <summary>What do we do in this page?</summary>
+        <p>We tell you some cute plants that you can have indoor.
+          we also give some information about how to care and grow them.
+          You can also order them online in our page.
+        </p>
+      </details>
       <section>
+        <!-- plants and info -->
         <h1>Best Indoor Plants</h1>
         <figure>
           <img
@@ -93,7 +102,7 @@
       </section>
     </main>
     <hr />
-    <section>
+    <section id="about">
       <h2>About us</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
@@ -105,7 +114,7 @@
       </p>
     </section>
     <hr />
-    <footer>
+    <footer id="foot">
         <section>
       <nav>
         <ul>
@@ -128,7 +137,7 @@
               <li><stronge>Terms</stronge></li>
               <li><a href="#">Terms of servicr</a></li>
               <li><a href="#">Privacy Policy</a></li>
-              <li href="#">Returns ans Delivery</li>
+              <li><a href="#">Returns and Delivery</a></li>
               <li><a href="#">Cookies</a></li>
           </ul>
         </nav>
